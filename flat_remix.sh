@@ -5,7 +5,7 @@
 
 echo "Download Flat Remix GTK (y/n) ?"
 read op
-if [ $op == "y" ]
+if [ $op == "y" ];
 	then
 	echo "Downloading FlatRemix GTK Theme.."
 	#Download Theme Using Git Clone
@@ -17,7 +17,7 @@ fi
 
 echo "Download Flat Remix Gnome Theme (y/n) ?"
 read op
-if [ $op == "y" ]
+if [ $op == "y" ];
 	then
 	echo "Downloading FlatRemix Gnome Theme"
 	#Download Theme Using Git Clone
@@ -28,7 +28,7 @@ fi
 
 echo "Download Flat Remix Icon Theme (y/n) ?"
 read op
-if [ $op == "y" ]
+if [ $op == "y" ];
 	then
 	echo "Downloading FlatRemix Icon Theme"
 	#Download Theme Using Git Clone
